@@ -13,8 +13,27 @@ $(document).ready(function(){
 
 });
 
-
+// New Attempt
 // event listners for keydown and button click
+
+
+// Model --> dummest part of the project --- just houses the data
+// --> or "STRUCTURE"
+// var Item = function (name){
+//     this.name = name;
+// }
+
+// throw in the controller (referring to the model: commonjs or script file appears before this one)
+// require('')
+// Item.prototype.computePrice = function(argument){
+     // body...  
+
+     // get motivated --- let me steal the idea
+     // goting with the flow
+// };
+
+// instance of the model used in the Controller (usually)
+// var tomatoes = new Item("Tomatoes");
 
 
 var finalAnswer = Math.floor((Math.random() * 100) + 1);
@@ -55,6 +74,9 @@ function guess(number)
     }
 }
 
+
+// CONTROLLER --> logical parts of the project (if X, then Y)
+
 function hotOrCold(number)
 {
     var distance = Math.abs( finalAnswer - number );
@@ -80,6 +102,8 @@ function hotOrCold(number)
     $("#feedback").text(feedbackText);
 }
 
+
+// paints the PAGE --> very good view
 function addGuessToGuessList(number)
 {
     $("#guessList").append('<li>'+number+'</li>');
