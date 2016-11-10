@@ -26,7 +26,7 @@ $(document).ready(function(){
 // throw in the controller (referring to the model: commonjs or script file appears before this one)
 // require('')
 // Item.prototype.computePrice = function(argument){
-     // body...  
+     // body...
 
      // get motivated --- let me steal the idea
      // goting with the flow
@@ -133,30 +133,10 @@ function isNumber(val) {
     }
 };
 
-function resetGame()
-{
-    answer = Math.floor((Math.random() * 100) + 1);
-    guesses = [];
-    gameEnded = false;
-    $("#guessList").empty();
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// function resetGame()
+// {
+//     answer = Math.floor((Math.random() * 100) + 1);
+//     guesses = [];
+//     gameEnded = false;
+//     $("#guessList").empty();
+// }
