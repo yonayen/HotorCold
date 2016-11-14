@@ -133,10 +133,10 @@ function isNumber(val) {
     }
 };
 
-// function resetGame()
-// {
-//     answer = Math.floor((Math.random() * 100) + 1);
-//     guesses = [];
-//     gameEnded = false;
-//     $("#guessList").empty();
-// }
+function resetGame()
+{
+    answer = Math.floor((Math.random() * 100) + 1);
+    guesses = [];
+    gameEnded = false;
+    $("#guessList").empty();
+}
